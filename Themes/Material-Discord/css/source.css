@@ -291,31 +291,6 @@ body,
   background-color: hsl(var(--accent-hsl--material-you));
 }
 
-/* APP ELEMENTS -> TITLEBAR */
-.wordmark__5b8c9.wordmarkWindows_ffbc5e {
-  width: auto;
-  height: var(--window-title-bar);
-  padding: 0 0 0 4px;
-  line-height: var(--window-title-bar);
-  font-size: 0.9em;
-  color: var(--text-normal);
-}
-.wordmark__5b8c9.wordmarkWindows_ffbc5e:before, .wordmark__5b8c9.wordmarkWindows_ffbc5e:after {
-  position: relative;
-  width: auto;
-  height: 22px;
-}
-.wordmark__5b8c9.wordmarkWindows_ffbc5e:before {
-  content: "Material";
-  font-weight: 700;
-}
-.wordmark__5b8c9.wordmarkWindows_ffbc5e:after {
-  content: "Discord";
-}
-.wordmark__5b8c9.wordmarkWindows_ffbc5e svg {
-  display: none;
-}
-
 .typeWindows_e41dab.withFrame__5e49e {
   height: var(--window-title-bar);
   margin-top: 0;
